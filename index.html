@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Smart Pension FE Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Smart Pension FE Test</h1>
+    <ul>
+      <li>Make sure when selecting a date, the date is valid.</li>
+      <li>Only display the possible dates in the dropdowns.</li>
+      <li>When selecting the day: <code>31</code>, then select the month: <code>02</code></li>
+      <li>The days listed in the dropdown should change to only <code>28</code> and the selected day should become <code>28</code></li>
+      <li>Display a nicely formatted selected date once the date is complete.</li>
+      <li>Add a button to <code>reset/clear</code> the selected date.</li>
+    </ul>
+    <div class="date-wrapper">
+      <div class="select-wrapper">
+        <label for="days">Day</label>
+        <select id="days"></select>
+      </div>
+      <div class="select-wrapper">
+        <label for="months">Month</label>
+        <select id="months"></select>
+      </div>
+      <div class="select-wrapper">
+        <label for="years">Year</label>
+        <select id="years"></select>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

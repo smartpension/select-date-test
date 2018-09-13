@@ -1,0 +1,31 @@
+* {
+  font-family: monospace;
+}
+
+code {
+  background-color: #e2e2e2;
+  border-radius: 6px;
+  border: 1px solid #777777;
+  font-size: .8rem;
+  padding: 0 2px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.date-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.select-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
