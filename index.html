@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/index.css">
   <script src="./js/moment.min.js"></script>
   <script src="./js/index.js" defer></script>
+  <script src="./js/dev-mode.js" defer></script>
 </head>
 <body>
   <nav class="navbar navbar-light bg-light">
@@ -39,7 +40,7 @@
           <li>Only display the possible dates in the dropdowns.</li>
           <li>
             When selecting the day: <code class="gh-code">31</code>, then select the month: <code class="gh-code">02</code><br>
-            The days listed in the dropdown should change to a count of only <code class="gh-code">28</code> and the selected day should become <code class="gh-code">28</code>
+            The days listed in the dropdown should change to a count of only <code class="gh-code">28/29</code> and the selected day should become <code class="gh-code">28/29</code>
           </li>
           <li>Display a nicely formatted selected date once the date is complete.</li>
           <li>Add a button to <code class="gh-code">reset/clear</code> the selected date.</li>
@@ -59,6 +60,8 @@
         </ul>
       </div>
     </div>
+
+    <!-- Start of the Test-->
 
     <form>
       <div class="form-row pb-4">
@@ -82,6 +85,9 @@
         </div>
       </div>
     </form>
+
+    <!---------------------------->
+
     <div class="justify-content-center align-items-end mt-4 d-none" id="console-wrapper">
       <span id="console-text" class="console-text"></span>
       <span class="blinking-cursor console-text">|</span>
